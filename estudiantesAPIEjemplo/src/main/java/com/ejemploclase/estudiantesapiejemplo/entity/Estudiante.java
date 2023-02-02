@@ -1,6 +1,6 @@
 package com.ejemploclase.estudiantesapiejemplo.entity;
 
-public class Estudiantes {
+public class Estudiante {
 
     private int id;
 
@@ -10,10 +10,10 @@ public class Estudiantes {
 
     private String direccion;
 
-    public Estudiantes() {
+    public Estudiante() {
     }
 
-    public Estudiantes(int id, String nombre, String apellidos, int edad, String direccion) {
+    public Estudiante(int id, String nombre, String apellidos, int edad, String direccion) {
         this.id = id;
         this.nombre = nombre;
         this.apellidos = apellidos;
