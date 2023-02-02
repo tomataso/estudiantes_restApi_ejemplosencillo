@@ -61,3 +61,21 @@ public class Estudiante {
         this.direccion = direccion;
     }
 }
+
+/*
+
+EL JSON
+
+[
+    {
+        "id": 1,
+        "nombre": "Diego",
+        "apellidos": "Arias",
+        "edad": 11,
+        "direccion": "SC"
+    }
+]
+
+
+
+ */
