@@ -1,9 +1,11 @@
 package com.ejemploclase.estudiantesapiejemplo.repository;
 
 import com.ejemploclase.estudiantesapiejemplo.entity.Estudiante;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 
+@Repository
 public class EstudianteRepository {
 
 
@@ -11,8 +13,7 @@ public class EstudianteRepository {
 
     public ArrayList<Estudiante> listarEstudiantes()
     {
-        // Libro libro = new Libro(1,"Mi Libro","Mauricio Camacho","2020","UCenfotec");
-        // listaLibros.add(libro);
+
         return listaEstudiantes;
     }
 
